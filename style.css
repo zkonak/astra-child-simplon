@@ -1,6 +1,6 @@
 /**
 Theme Name: Astra Child Simplon
-Author: PeHaa
+Author: Zeliha
 Author URI: https://pehaa.com
 Description: Astra Child is a custom child theme for Astra. It adds an option for the fixed navigation bar.
 Version: 1.0.0
@@ -11,28 +11,78 @@ Template: astra
 */
 
 .blocks-gallery-grid:hover a img {
-  filter: saturate(0%) sepia(30%) hue-rotate(-5deg);
+    filter: saturate(0%) sepia(30%) hue-rotate(-5deg);
 }
+
 .blocks-gallery-grid a img {
-  transition: 1s;
+    transition: 1s;
 }
+
 .blocks-gallery-grid a {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 .blocks-gallery-grid a:hover img {
-  filter: none;
-  transform: scale(1.2);
+    filter: none;
+    transform: scale(1.2);
 }
 
 .sticky-navbar .site-header {
-  position: sticky;
-  top: 0;
+    position: sticky;
+    top: 0;
 }
 
 .sticky-navbar [id] {
-  scroll-margin-top: 100px;
+    scroll-margin-top: 100px;
 }
+
 
 /* your code starts here 👇 */
 
+.has-carbon-color {
+    color: #4A4A4A;
+}
+
+.has-carbon-background-color {
+    background-color: #4A4A4A;
+}
+
+.has-white-color {
+    color: #FFFFFF;
+}
+
+.has-white-background-color {
+    background-color: #FFFFFF;
+}
+
+.has-black-color {
+    color: #000000;
+}
+
+.has-black-background-color {
+    background-color: #000000;
+}
+
+.has-vanille-color {
+    color: #EBE5D9;
+}
+
+.has-vanille-background-color {
+    background-color: #EBE5D9;
+}
+
+.has-caramel-color {
+    color: #8B572A;
+}
+
+.has-caramel-background-color {
+    background-color: #8B572A;
+}
+
+.has-cappuccino-color {
+    color: #B09F82;
+}
+
+.has-cappuccino-background-color {
+    background-color: #B09F82;
+}
