@@ -1,0 +1,38 @@
+/**
+Theme Name: Astra Child Simplon
+Author: PeHaa
+Author URI: https://pehaa.com
+Description: Astra Child is a custom child theme for Astra. It adds an option for the fixed navigation bar.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra-child-simplon
+Template: astra
+*/
+
+.blocks-gallery-grid:hover a img {
+  filter: saturate(0%) sepia(30%) hue-rotate(-5deg);
+}
+.blocks-gallery-grid a img {
+  transition: 1s;
+}
+.blocks-gallery-grid a {
+  overflow: hidden;
+}
+
+.blocks-gallery-grid a:hover img {
+  filter: none;
+  transform: scale(1.2);
+}
+
+.sticky-navbar .site-header {
+  position: sticky;
+  top: 0;
+}
+
+.sticky-navbar [id] {
+  scroll-margin-top: 100px;
+}
+
+/* your code starts here 👇 */
+
